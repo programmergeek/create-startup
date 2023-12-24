@@ -13,7 +13,7 @@ import Image from "next/image";
 
 export function NavigationMenu() {
   return (
-    <UINavigationMenu className="w-screen max-w-[100vw] py-3">
+    <UINavigationMenu className="max-w-screen py-3">
       <NavigationMenuList className="flex justify-center">
         {/* Modify this to add your logo */}
         <NavigationMenuItem className="relative mr-5 h-[20px] w-[100px]">
